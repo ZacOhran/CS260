@@ -6,18 +6,6 @@ rnadomly get a color
  - randomly pick a number and that spot in string
  - print that color out.
 
-
-
-
-
-int  main(void)
-{
-    int x; 
-    std::cout << "Type a number: "; // Type a number and press enter
-    std::cin >> x; // Get user input from the keyboard
-    std::cout << "Your number is: " << x; // Display the input value
-
-}
 */
 
 #include <iostream>
