@@ -1,0 +1,4 @@
+Forgot to do this assignment last week, did after I did assignment 3 and completed the queued list
+1. function to add value to emd, func to take off top, func to read/print top, func to check if empty, func to create array
+2. top, end, array, size of array (and the array)
+3. see assignment 3 for final product
