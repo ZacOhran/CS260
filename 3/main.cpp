@@ -11,22 +11,22 @@ int main()
     // Testing
     Queue<int> myQueue;
 
-    // Testing empty Queue, also peek and dequeue functions
+    // Testing empty Queue, seeTop, and dequeue functions
     cout << "\tTesting Empty Queue\n";
     cout << "Top: " << myQueue.seeTop() << endl;
     cout << "Dequeue: " << myQueue.dequeue() << endl;
 
-    // Testing one Node in Queue, also enqueue function
+    // Testing one Node in Queue and enqueue function
     cout << "\n\tTesting One Node in Queue:\n";
-    myQueue.enqueue(42);
+    myQueue.enqueue(50);
     cout << "Top: " << myQueue.seeTop() << endl;
     cout << "Dequeue: " << myQueue.dequeue() << endl;
 
     // Testing all functions using multiple Nodes in Queue
     cout << "\n\tTesting Multiple Nodes in Queue\n";
-    myQueue.enqueue(3);
-    myQueue.enqueue(50);
-    myQueue.enqueue(37);
+    myQueue.enqueue(5);
+    myQueue.enqueue(15);
+    myQueue.enqueue(20);
     cout << "Top: " << myQueue.seeTop() << endl;
     cout << "Dequeue: " << myQueue.dequeue() << endl;
     cout << "Top: " << myQueue.seeTop() << endl;
