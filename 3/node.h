@@ -1,14 +1,14 @@
 #pragma once
 
-/* Node struct with data and pointer */
+/* Node struct, data and pointer creation */
 template <class N>
 struct Node
 {
     // Variables
-    N data;     // Number is the data in the node
-    Node *next; // Pointer to the next node
+    N data;
+    Node *next; // points to next node
 
-    // Function for creating new node
+    // Func to create next node
     Node() {}
     Node(N newData, Node *newNext)
     {
