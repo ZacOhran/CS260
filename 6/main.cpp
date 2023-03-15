@@ -2,8 +2,10 @@
 #include "binary_search_tree.cpp"
 int main()
 {
+    // Actual creation of the class
     BinarySearchTree bst;
 
+// Adding the nodes in with single digit integers
     bst.add(9);
     bst.add(1);
     bst.add(5);
