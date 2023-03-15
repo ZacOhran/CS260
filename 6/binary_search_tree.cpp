@@ -1,8 +1,10 @@
+#pragma once
 #include "binary_search_tree.h"
 #include <iostream>
 
 using namespace std;
 
+// Creates the node
 Node *BinarySearchTree::createNode(int value)
 {
     Node *newNode = new Node;
@@ -11,6 +13,7 @@ Node *BinarySearchTree::createNode(int value)
     return newNode;
 }
 
+// inserts a child
 Node *BinarySearchTree::insert(Node *node, int value)
 {
     if (node == NULL)
@@ -28,6 +31,7 @@ Node *BinarySearchTree::insert(Node *node, int value)
     return node;
 }
 
+// finds smallest
 Node *BinarySearchTree::findMin(Node *node)
 {
     while (node->left != NULL)
@@ -37,6 +41,7 @@ Node *BinarySearchTree::findMin(Node *node)
     return node;
 }
 
+// in charge of deleting a node
 Node *BinarySearchTree::remove(Node *node, int value)
 {
     if (node == NULL)
@@ -80,6 +85,7 @@ Node *BinarySearchTree::remove(Node *node, int value)
     return node;
 }
 
+// Traversal (i had chatgtp help me out wiht this. helped me out INSANELY. i understand it)
 void BinarySearchTree::inorderTraversal(Node *node)
 {
     if (node == NULL)
